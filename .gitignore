@@ -3,3 +3,4 @@ main.exe
 test.exe
 .vscode/
 test.c
+sort_name_alphabetically.c

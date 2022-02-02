@@ -1,6 +1,6 @@
 track_name,artist_name,album_name,album_release_date,track_duration
 Purnama,Naim Daniel,Purnama,2020,203512
-Malam Semakin Dingin,"Tajul, Afieq Shazwan",Malam Semakin Dingin,2021,282692
+Malam Semakin Dingin,Tajul ft. Afieq Shazwan,Malam Semakin Dingin,2021,282692
 Hal Hebat,Govinda,Hal Hebat,2022,328701
 Pulang - Piano Version,Insomniacks,Pulang (Piano Version),2019,308528
 Kepuraanmu,Luqman Faiz,Kepuraanmu,2018,231180
@@ -31,13 +31,13 @@ Jampi,Hael Husaini,Jampi,2017,217678
 Hidup Dalam Mati,Syamel,Hits AF2015,2015,247264
 Ku Rela Dibenci,Aiman Tino,Ku Rela Dibenci,2016,216999
 Permata Cinta,Aiman Tino,Permata Cinta,2016,209533
-Ku Mau,"Aizat Amdan, Hanin Dhiya",Ku Mau,2020,176428
+Ku Mau,Aizat Amdan ft. Hanin Dhiya,Ku Mau,2020,176428
 Kebahagiaan Dalam Perpisahan,Shahir,AF8 Hits,2010,239426
 Terasa Ada,Sufian Suhaimi,Terasa Ada,2017,242071
 Mainan,Naim Daniel,Mainan,2021,234000
 Sesuatu Yang Takkan Mungkin,SHA2Z,Sesuatu Yang Takkan Mungkin,2019,219794
 Harus Aku,Sufian Suhaimi,Harus Aku,2016,244566
-"Babak Pertama - From ""Juvana""",Drama Band,"Babak Pertama (From ""Juvana"")",2011,245434
+Babak Pertama - From Juvana,Drama Band,Babak Pertama (From "Juvana"),2011,245434
 Cerita Dia,Aepul Drama Band,Cerita Dia,2011,255999
 Yang Terindah,Achey,Yang Terindah,2017,239279
 Harapan,Hyper Act,Impian,2014,235563
@@ -49,8 +49,8 @@ Perasaanku,Fieya Julia,Perasaanku,2018,238869
 Selamat Tinggal Sayang,Haqiem Rusli,Selamat Tinggal Sayang,2018,246339
 Luluh,Khai Bahar,Luluh,1905,233444
 Tetap Menantimu,Nomad,Tetap Menantimu,2015,238001
-Aku Cinta,"Syamel, Ernie Zakri",Aku Cinta,2017,249707
-Sonata Musim Salju,Hazami,"The Best Of Malaysia, Vol. 1",2012,270426
+Aku Cinta,Syamel ft. Ernie Zakri,Aku Cinta,2017,249707
+Sonata Musim Salju,Hazami,The Best Of Malaysia, Vol. 1,2012,270426
 Sofea Jane,Black,Obsesi,2011,248407
 Kembali Senyum,Izwan Pilus,Indah Lelapku,2007,251245
 Aku Tak Percaya Cinta,Liyana Jasmay,Aku Tak Percaya Cinta,2017,238786
@@ -59,12 +59,12 @@ Pudar,Rossa,Kembali,2004,267093
 Atas Nama Cinta,Rossa,Yang Terpilih,2006,180666
 Ayat-Ayat Cinta,Rossa,Ayat - Ayat Cinta OST,2008,243493
 Camelia,Irwansyah,Soliter,2008,228320
-My Heart,"Acha Septriasa, Irwansyah",Heart,2006,230133
+My Heart,Acha Septriasa ft. Irwansyah,Heart,2006,230133
 Pencinta Wanita,Irwansyah,Heart,2006,273120
-Khayalan,"V.E., Ruffedge",V.E. & Friends,2007,253133
+Khayalan, V.E. ft. Ruffedge,V.E. & Friends,2007,253133
 Sha Na Na,Amy Mastura,Bintang Hati,2000,316493
 Sayang Sayang - Malaysian Version,Aliff Aziz,Aliff,2007,216333
-Sembunyi,"Andy Flop Poppy, Misha Omar",Misha Omar,2008,170066
+Sembunyi, Andy Flop Poppy ft. Misha Omar,Misha Omar,2008,170066
 Diari Seorang Lelaki,Pretty Ugly,Rockaholic,2006,231333
 Ruang Rindu,Letto,Best Of The Best,2016,262720
 Sandaran Hati,Letto,Best Of The Best,2016,206586
@@ -117,8 +117,8 @@ Hey Ladies,Rossa,Rossa,2013,223235
 Kembali Senyum,Izwan Pilus,Indah Lelapku,2007,192546
 Inilah Cinta - Akustik,Akim Ahmad,Akim,2012,251245
 Mungkir Bahagia,Hazami,Kata,2005,174120
-Jika Kau Tiada,"Erra Fazira, Yusry",Kini Kembali,2004,265493
-Cinta,"Misha Omar, Jaclyn Victor",Misha Omar,2008,239226
+Jika Kau Tiada,Erra Fazira ft. Yusry,Kini Kembali,2004,265493
+Cinta,Misha Omar ft. Jaclyn Victor,Misha Omar,2008,239226
 Bukan Cinta Biasa,Dato' Sri Siti Nurhaliza,E.M.A.S,2003,280933
 Janji - Akustik,Akim Ahmad,Akim,2012,266983
 Bila Terasa Rindu,Dafi,Duyung OST,2007,263773
@@ -131,9 +131,9 @@ Kisah Dongeng,Stacy,Stay-C,1905,341546
 Bawa Ku Terbang,The Fabulous Cats,Hyperkosmik,2008,228877
 Bila Aku Sudah Tiada,Hujan,Bila Aku Sudah Tiada,2007,286440
 Tipah Tertipu,Ruffedge,Tipah Tertipu,2004,285446
-Pop Ye Ye,"V.E., Joe Flizzow, Daly",V.E. & Friends,2007,294200
-Januari,Glenn Fredly,"Selamat Pagi, Dunia!",2003,215826
-Ombak Rindu,"Adira, Hafiz Suip",Dewi Cinta,2014,222160
+Pop Ye Ye,V.E. ft. Joe Flizzow & Daly,V.E. & Friends,2007,294200
+Januari,Glenn Fredly,Selamat Pagi, Dunia!,2003,215826
+Ombak Rindu,Adira ft. Hafiz Suip,Dewi Cinta,2014,222160
 Sahabat,Najwa Latif,Sahabat - Single,2012,217044
 Seksis,Anita Sarawak,Seksis,2004,188600
 Farhana (Puteri Bumi Kenyalang),Jinbara,Patah Pusing,2007,224280
@@ -145,16 +145,16 @@ Gemilang,Jaclyn Victor,Gemilang,2004,220306
 Bila Rindu,Ruffedge,Bila Rindu,2004,195653
 Awan Nano,Hafiz Suip,Hafiz,2012,340706
 Arjuna,Tomok,Hitman,2011,346306
-Menggegar Dunia,"Dafi, Keena, Marsha",Hotel Mania OST,2010,222573
+Menggegar Dunia, Dafi ft. Keena & Marsha,Hotel Mania OST,2010,222573
 Dekat Padamu,Yusry,Yusry,2003,151071
 Kebahagiaan Dalam Perpisahan,Shahir AF8,AF8 Hits,2010,225666
 Yank,Wali,Cari Jodoh,2009,239439
-Sonata Musim Salju,Hazami,"The Best Of Malaysia, Vol. 1",2012,275571
+Sonata Musim Salju,Hazami,The Best Of Malaysia, Vol. 1,2012,275571
 Biarlah Rahsia,Dato' Sri Siti Nurhaliza,Transkripsi,1905,270426
 Kalis Rindu,Elyana,Jadi Diriku,2007,249786
 Dedebu Cinta,Misha Omar,Aksara,2004,211200
 Hanyut,Faizal Tahir,Adrenalin,2009,260760
 Selamat Malam,Faizal Tahir,Adrenalin,2009,235160
 Akustatik,Oag,Akustatik,2004,244480
-11 Januari,Gigi,"Peace, Love And Respect",2007,256013
+11 Januari,Gigi,Peace, Love And Respect,2007,256013
 Mahakarya Cinta,Faizal Tahir,Aku Muzik Kamu,2007,212026
