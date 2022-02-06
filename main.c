@@ -60,15 +60,15 @@ Song *head, *temp; // for song
 /* song pool array to store all nodes address by index (faster alternative to access linked list nodes),
     it basically stores the address of each nodes from Song linked list. It will be easier to iterate and edit
     nodes inside linked list */
-songptr song_pool[MAX_SONG_POOL]; 
+songptr song_pool[MAX_SONG_POOL];
 
 // Algorithm-related
 void Enqueue(int);
 void Dequeue();
 void destroyQueue();
-void LinearSearchString(char *, int); 
+void LinearSearchString(char *, int);
 void FrontBackSplit(Song *, Song **, Song **);
-void MergeSort(Song **, int); 
+void MergeSort(Song **, int);
 Song *SortedMerge(Song *, Song *, int);
 
 // Data structure for queue
@@ -135,18 +135,18 @@ Song *SortedMerge(Song *a, Song *b, int type)
 
     switch (type)
     {
-        case 1: // Sort by title
-            p = alphabet_to_num(a->title[0]);
-            q = alphabet_to_num(b->title[0]);
-            break;
-        case 2: // Sort by artist
-            p = alphabet_to_num(a->artist[0]);
-            q = alphabet_to_num(b->artist[0]);
-            break;
-        case 3: // Sort by year
-            p = a->year;
-            q = b->year;
-            break;
+    case 1: // Sort by title
+        p = alphabet_to_num(a->title[0]);
+        q = alphabet_to_num(b->title[0]);
+        break;
+    case 2: // Sort by artist
+        p = alphabet_to_num(a->artist[0]);
+        q = alphabet_to_num(b->artist[0]);
+        break;
+    case 3: // Sort by year
+        p = a->year;
+        q = b->year;
+        break;
     }
 
     /* Pick either a or b, and recur */
@@ -163,7 +163,6 @@ Song *SortedMerge(Song *a, Song *b, int type)
     return (result);
 }
 
-
 int main()
 {
     readFromCSV(); // Initialize data
@@ -173,7 +172,7 @@ int main()
 int rootWindow()
 {
     printf("\nPRISMANE\n-NextGen Digital Music Library-\n\n");
-    rootCMDSelection(); // display list of selections
+    rootCMDSelection();             // display list of selections
     int userInput = getUserInput(); // ask user input
     rootCMDExecution(userInput);    // pass to execution
 }
@@ -197,7 +196,7 @@ int rootCMDExecution(int input)
         clearscreen();
         About();
         printf("Press Any Key to Continue...");
-        _getch();   // getchar
+        _getch(); // getchar
         clearscreen();
         rootWindow();
         break;
@@ -212,13 +211,8 @@ int rootCMDExecution(int input)
 /* About in root window*/
 void About()
 {
-    printf("Group 2\nData Structure & Algorithms Subject\nUniversiti Malaysia Pahang\n4/2/2022\n\n");
-    printf("Team Members:\n");
-    printf("1. Muhammad Farhad Bin Khaharruddin    SD20028\n");
-    printf("2. Hafiz Hakimi Bin Mohd Rasani        SD20060\n");
-    printf("3. Muhammad Akram Bin Mohamad A'sim    SD20013\n");
-    printf("4. Aizat Haikal Bin Apandi             SD20006\n");
-    printf("5. Muhammad 'arif Bin Mohd Anuwa       SD20039\n\n");
+    printf("Program was created as an exercise to implement queue, search and sort algorithm learned.\n\n");
+    printf("by M. Farhad\n\n");
 }
 
 /* About in root window*/
@@ -400,10 +394,10 @@ int PlayQueue()
     while (current != NULL) // iterate every nodes in linked list
     {
         next = current->next_song;
-        if (next == NULL)   // only one element exists
+        if (next == NULL) // only one element exists
         {
             printf("Playing : %s bt %s\n", current->song->title, current->song->artist);
-            printf("Up Next: None\n\n");    
+            printf("Up Next: None\n\n");
         }
         else
         {
@@ -411,26 +405,25 @@ int PlayQueue()
             printf("Up Next: %s by %s\n\n", next->song->title, next->song->artist);
         }
         current = next;
-        Dequeue();  // remove the song after playback
+        Dequeue(); // remove the song after playback
         Sleep(2000);
     }
     printf("Played all songs in queue. Returning back to menu");
     Sleep(1000);
 }
 
-
 /* sort title (ascending)*/
 void TitleSort()
 {
-    MergeSort(&head, 1);    // Title = 1, Pass linked list to Merge Sort 
-    ResetPoolID();  // Reset all song ids to apply the changes
+    MergeSort(&head, 1); // Title = 1, Pass linked list to Merge Sort
+    ResetPoolID();       // Reset all song ids to apply the changes
 }
 
 /* sort artist (ascending)*/
 void ArtistSort()
 {
     MergeSort(&head, 2); // Artist = 2
-    ResetPoolID(); 
+    ResetPoolID();
 }
 
 /* sort by year (ascending)*/
@@ -498,7 +491,7 @@ void FindSongByTitle()
     scanf(" %[^\n]s", input);     // accept space
     LinearSearchString(input, 1); // 1 - title, 2 - album, 3 - year
     clearscreen();
-    if (displayMatchedSongs())  // if there is song that matches
+    if (displayMatchedSongs()) // if there is song that matches
     {
         printf("[1] Select Song\n");
         printf("[0] Back to menu\n\n");
@@ -616,7 +609,7 @@ void LinearSearchString(char *target, int attribute)
     int ret;
     for (int i = 0; i < MAX_SONG_POOL && song_pool[i] != NULL; i++)
     {
-        switch (attribute)  // check the attribute first
+        switch (attribute) // check the attribute first
         {
         case 1:
             ret = strcmp(song_pool[i]->title, target);
@@ -657,7 +650,7 @@ void selectSong()
     int id, input;
     printf("\nInsert song number(#): ");
     scanf(" %d", &id);
-    id = id - 1;     // Change to actual index number
+    id = id - 1;                          // Change to actual index number
     if (id < 0 || id > MAX_SONG_POOL - 1) // if song chosen is not in the song pool
     {
         printf("\nInvalid number! Returning back to menu");
