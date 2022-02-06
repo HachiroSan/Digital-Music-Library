@@ -1,19 +1,3 @@
-/*=============================================================================
- |   Assignment:  Group Project
- |       Author:  Group 2
- |     Due Date:  4/2/2022
- |     Subject :  Data Structure And Algorithms
- |     Lecturer:  Dr. Junaida Binti Sulaiman 
- +-----------------------------------------------------------------------------
- |
- |  Description:  Digital Music Library implemene
- |
- |    Algorithm:  Linear Sequential (Linked List), Merge Sort (Linked List), Queue (FIFO) (Linked List)
- |
- |   Known Bugs:  None
- |
- *===========================================================================*/
-
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
