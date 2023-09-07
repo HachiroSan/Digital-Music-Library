@@ -1,6 +1,6 @@
 # Digital-Music-Library
 
-Made for Programming Technique Assignment.
+Made for Programming Technique subject assignment.
 
 A basic digital music library framework powered with *C*.
 
